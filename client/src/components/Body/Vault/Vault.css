@@ -1,0 +1,11 @@
+.vault-div {
+  margin: auto;
+  text-align: center;
+  margin-top: 4rem;
+  display: flex;
+  width: 90%;
+}
+
+.vault-div p {
+  margin: auto;
+}

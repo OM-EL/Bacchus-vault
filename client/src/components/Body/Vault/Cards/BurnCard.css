@@ -1,0 +1,52 @@
+.burn-card {
+  color: black;
+  background-color: var(--gray);
+  display: flex;
+  border-radius: 2rem;
+}
+
+.burn-card-picture {
+  flex: 1;
+}
+
+.burn-card-picture img {
+  width: 10rem;
+  margin: 1rem;
+}
+
+.burn-card-information {
+  font-size: larger;
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  line-height: 0.1;
+}
+
+.burn-card-values {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.burn-card-values-available {
+  display: flex;
+  align-items: center;
+}
+
+.burn-card-values-profits {
+  display: flex;
+  flex-direction: column;
+}
+
+.burn-card-values-burn-btn {
+  display: flex;
+  align-items: center;
+}
+
+.burn-card-values-burn-btn button {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none
+}

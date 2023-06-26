@@ -1,0 +1,39 @@
+.bottle-card {
+  background-color: var(--light-gray);
+  color: black;
+  border-radius: 2rem;
+  padding: 2rem;
+  width: 40%;
+  margin: 2rem;
+}
+
+.bottle-card-details {
+  display: flex;
+}
+
+.bottle-card-picture {
+  width: 30%;
+}
+
+.bottle-card-picture img {
+  width: 12rem;
+  margin: 1rem;
+}
+
+.bottle-card-infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottle-card-stats {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.bottle-card-stats-left {
+  margin: 0 1rem;
+}
+
+.bottle-card-description {
+  text-align: justify;
+}

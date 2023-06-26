@@ -1,0 +1,11 @@
+.vault-left,
+.vault-right {
+  width: 50%;
+}
+
+.your-vault-div *:not(h1),
+.burn-profit-div *:not(h1),
+.pending-vote-div *:not(h1),
+.voted-div *:not(h1) {
+  margin: 1rem;
+}

@@ -1,0 +1,523 @@
+{
+  "contractName": "BacchusVaultGovernorVotes",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "bacchusVaultERC1155",
+      "outputs": [
+        {
+          "internalType": "contract BacchusVaultERC1155",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"bacchusVaultERC1155\",\"outputs\":[{\"internalType\":\"contract BacchusVaultERC1155\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/BacchusVaultGovernorVotes.sol\":\"BacchusVaultGovernorVotes\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/BacchusVaultERC1155.sol\":{\"keccak256\":\"0x06245c4ce18f77378d7099e6829966a87e14f11ca04df78721362890acca9c40\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4bad9a03c38aac71b5e15bde09290ab15085eb08eabb1cb1c3ce0ca0c77f157f\",\"dweb:/ipfs/QmbG71KiYVZfZ99a3py4RyP29txHVLq6JZViVuMovrBzqZ\"]},\"project:/contracts/BacchusVaultGovernorVotes.sol\":{\"keccak256\":\"0x8c2b3fcabea7196b44055fbdf3c4cd13e83148b16898de0dcf6505a5b5b5ef49\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b3257b5e147592a479ffcf9a945edf40cc43e82108570373b73e980656fb317d\",\"dweb:/ipfs/QmTqqDuN77gvQacSmAH8pa9iDMAWjy4fELpyqxSWFhAh8x\"]},\"project:/contracts/BottlesSupply.sol\":{\"keccak256\":\"0x8aefda49f3968994ce6e3f8be035c22bb65aff1e510423207407e0cdcb76b3e7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://51678ad689641e9459464d1afa1b0486e0f95f4a14243158d61e777e8778a3b2\",\"dweb:/ipfs/Qmer7VS2avTRGegTmtn5cJwJwwks474hWuTKVux8N7biQw\"]},\"project:/contracts/CommonEnums.sol\":{\"keccak256\":\"0xd79e331747f27fa46ff3ed337515d21c8bdf15704956f38eaf6e8a2899cf20b1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://098506a2dd5fd934b9d61d1c48e7082bd4f517772ad7bc7df3de609b811fd9d2\",\"dweb:/ipfs/QmaNRVLYKtBBLDv3GcsgTrx6ybjgjv73geLFgsfevdyz3K\"]},\"project:/node_modules/@openzeppelin/contracts/access/Ownable.sol\":{\"keccak256\":\"0xa94b34880e3c1b0b931662cb1c09e5dfa6662f31cba80e07c5ee71cd135c9673\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://40fb1b5102468f783961d0af743f91b9980cf66b50d1d12009f6bb1869cea4d2\",\"dweb:/ipfs/QmYqEbJML4jB1GHbzD4cUZDtJg5wVwNm3vDJq1GbyDus8y\"]},\"project:/node_modules/@openzeppelin/contracts/interfaces/IERC2981.sol\":{\"keccak256\":\"0xa812eed728198acd2c30d06950a5bea8d68436e4f694dd892273266ec2f79f5b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f5522afc5c222c810d9ad67c45f37cb7169452fcf76692cad10ac8153c068daa\",\"dweb:/ipfs/QmX4XgnDp7pyvojQ6g5tacrUMCf7TED2qC2vERH9Xh9feZ\"]},\"project:/node_modules/@openzeppelin/contracts/security/Pausable.sol\":{\"keccak256\":\"0x0849d93b16c9940beb286a7864ed02724b248b93e0d80ef6355af5ef15c64773\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4ddabb16009cd17eaca3143feadf450ac13e72919ebe2ca50e00f61cb78bc004\",\"dweb:/ipfs/QmSPwPxX7d6TTWakN5jy5wsaGkS1y9TW8fuhGSraMkLk2B\"]},\"project:/node_modules/@openzeppelin/contracts/token/ERC1155/ERC1155.sol\":{\"keccak256\":\"0xd917747dc87f189c6779b894f367a028f9dca4be930283cccec8f312966af820\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7a5e5b99830cf233f77aa3b1bd1f57561faee103beeee88e6a6f86d044817bbb\",\"dweb:/ipfs/QmREYidSDpHPig3AhxzsMHg3w2ZtMeGfRhcokXxEZyj6fC\"]},\"project:/node_modules/@openzeppelin/contracts/token/ERC1155/IERC1155.sol\":{\"keccak256\":\"0x6392f2cfe3a5ee802227fe7a2dfd47096d881aec89bddd214b35c5b46d3cd941\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bd9c47a375639888e726a99da718890ba16d17d7ad9eacb0ccc892d46d1b3ee0\",\"dweb:/ipfs/Qmb41W5RUjy2sWg49A2rMnxekSeEk6SvGyJL5tyCCSr7un\"]},\"project:/node_modules/@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol\":{\"keccak256\":\"0xeb373f1fdc7b755c6a750123a9b9e3a8a02c1470042fd6505d875000a80bde0b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0e28648f994abf1d6bc345644a361cc0b7efa544f8bc0c8ec26011fed85a91ec\",\"dweb:/ipfs/QmVVE7AiRjKaQYYji7TkjmTeVzGpNmms5eoxqTCfvvpj6D\"]},\"project:/node_modules/@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Burnable.sol\":{\"keccak256\":\"0x0d960db62b7c6984d4b67602bc3b5c63ba15db63657feedc6c3604eb334fb648\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d2c011e273a7a4ad251c317b6de69492a5f739dce3bf88ff09b1895fa233a759\",\"dweb:/ipfs/QmZ43AmC9msVpA3ZABk352obsjtZLfqpMKYxExXP772NfR\"]},\"project:/node_modules/@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol\":{\"keccak256\":\"0xe3deb5f3b0c9d12944f62ab680f041bbf1910d9d3ac6b545b4b8e399643c538d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e1f5bc920c2f9859b02dce02d7d0211608398287c643d42ad048555c9b204dc8\",\"dweb:/ipfs/QmSu2MFkCSPNG6pRsXxMai7Do7EDqLwpnnHVDB7q2wHJnr\"]},\"project:/node_modules/@openzeppelin/contracts/token/ERC1155/extensions/ERC1155URIStorage.sol\":{\"keccak256\":\"0x4e7bcc6aa9b150e125df8afbfbca5dfb7c92fa4fb01985f2f595ce0c96153cff\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://75aa1a94e176c23d37e117daf8386cd6301119b1ca5cf521fe22de9ccc13dade\",\"dweb:/ipfs/QmfTfUFGRZ3iNavQgLmj2zNR7Pz2djKV5UPRTmDWnapbGg\"]},\"project:/node_modules/@openzeppelin/contracts/token/ERC1155/extensions/IERC1155MetadataURI.sol\":{\"keccak256\":\"0xa66d18b9a85458d28fc3304717964502ae36f7f8a2ff35bc83f6f85d74b03574\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e46c80ea068989111d6103e5521223f9ef337e93de76deed8b03f75c6f7b2797\",\"dweb:/ipfs/QmNoSE6knNfFncdDDLTb3fGR6oSQty1srG96Vsx3E9wQdw\"]},\"project:/node_modules/@openzeppelin/contracts/token/common/ERC2981.sol\":{\"keccak256\":\"0x9bc4d7eb03c4e87fd5122e03cdff5f60fa360d76925980ad022b2c6fac9876f3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9c6d7cfaac6b54599068126b75474c86ccbbaf386c3581abf82d9cda21b35c81\",\"dweb:/ipfs/QmPZteoCvkiUgv4TZxv2wiEKR5KqM83UCohHnSGw1RytpM\"]},\"project:/node_modules/@openzeppelin/contracts/utils/Address.sol\":{\"keccak256\":\"0xf96f969e24029d43d0df89e59d365f277021dac62b48e1c1e3ebe0acdd7f1ca1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ec772b45a624be516f1c81970caa8a2e144301e9d0921cbc1a2789fef39a1269\",\"dweb:/ipfs/QmNyjwxCrGhQMyzLD93oUobJXVe9ceJvRvfXwbEtuxPiEj\"]},\"project:/node_modules/@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92\",\"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3\"]},\"project:/node_modules/@openzeppelin/contracts/utils/Counters.sol\":{\"keccak256\":\"0xf0018c2440fbe238dd3a8732fa8e17a0f9dce84d31451dc8a32f6d62b349c9f1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://59e1c62884d55b70f3ae5432b44bb3166ad71ae3acd19c57ab6ddc3c87c325ee\",\"dweb:/ipfs/QmezuXg5GK5oeA4F91EZhozBFekhq5TD966bHPH18cCqhu\"]},\"project:/node_modules/@openzeppelin/contracts/utils/Strings.sol\":{\"keccak256\":\"0xa4d1d62251f8574deb032a35fc948386a9b4de74b812d4f545a1ac120486b48a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8c969013129ba9e651a20735ef659fef6d8a1139ea3607bd4b26ddea2d645634\",\"dweb:/ipfs/QmVhVa6LGuzAcB8qgDtVHRkucn4ihj5UZr8xBLcJkP6ucb\"]},\"project:/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol\":{\"keccak256\":\"0xd10975de010d89fd1c78dc5e8a9a7e7f496198085c151648f20cba166b32582b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fb0048dee081f6fffa5f74afc3fb328483c2a30504e94a0ddd2a5114d731ec4d\",\"dweb:/ipfs/QmZptt1nmYoA5SgjwnSgWqgUSDgm4q52Yos3xhnMv3MV43\"]},\"project:/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol\":{\"keccak256\":\"0x447a5f3ddc18419d41ff92b3773fb86471b1db25773e07f877f548918a185bf1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://be161e54f24e5c6fae81a12db1a8ae87bc5ae1b0ddc805d82a1440a68455088f\",\"dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy\"]},\"project:/node_modules/@openzeppelin/contracts/utils/math/Math.sol\":{\"keccak256\":\"0xa1e8e83cd0087785df04ac79fb395d9f3684caeaf973d9e2c71caef723a3a5d6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://33bbf48cc069be677705037ba7520c22b1b622c23b33e1a71495f2d36549d40b\",\"dweb:/ipfs/Qmct36zWXv3j7LZB83uwbg7TXwnZSN1fqHNDZ93GG98bGz\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.17;\n\n\nimport \"./BacchusVaultERC1155.sol\";\n\nabstract contract BacchusVaultGovernorVotes{\n    BacchusVaultERC1155 public immutable bacchusVaultERC1155;\n\n    constructor(BacchusVaultERC1155 bacchusVaultERC1155Address) {\n        bacchusVaultERC1155 = bacchusVaultERC1155Address;\n    }\n\n    function _getVotes(\n        address account,\n        uint256 tokenId\n    ) internal view returns (uint256) {\n        return bacchusVaultERC1155.balanceOf(account, tokenId);\n    }\n}\n",
+  "sourcePath": "/home/tehjul/dev/CoursAlyra/BacchusVault/truffle/contracts/BacchusVaultGovernorVotes.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/BacchusVaultGovernorVotes.sol",
+    "exportedSymbols": {
+      "Address": [
+        4205
+      ],
+      "BacchusVaultERC1155": [
+        565
+      ],
+      "BacchusVaultGovernorVotes": [
+        1373
+      ],
+      "BottleStatus": [
+        1722
+      ],
+      "BottlesSupply": [
+        1708
+      ],
+      "Context": [
+        4227
+      ],
+      "Counters": [
+        4301
+      ],
+      "ERC1155": [
+        3185
+      ],
+      "ERC1155Burnable": [
+        3417
+      ],
+      "ERC1155Supply": [
+        3574
+      ],
+      "ERC1155URIStorage": [
+        3662
+      ],
+      "ERC165": [
+        4714
+      ],
+      "ERC2981": [
+        3875
+      ],
+      "IERC1155": [
+        3307
+      ],
+      "IERC1155MetadataURI": [
+        3677
+      ],
+      "IERC1155Receiver": [
+        3348
+      ],
+      "IERC165": [
+        4726
+      ],
+      "IERC2981": [
+        1854
+      ],
+      "Math": [
+        5591
+      ],
+      "Ownable": [
+        1835
+      ],
+      "Pausable": [
+        1962
+      ],
+      "SellingSessionStatus": [
+        1714
+      ],
+      "Strings": [
+        4476
+      ]
+    },
+    "id": 1374,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1341,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:2"
+      },
+      {
+        "absolutePath": "project:/contracts/BacchusVaultERC1155.sol",
+        "file": "./BacchusVaultERC1155.sol",
+        "id": 1342,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 1374,
+        "sourceUnit": 566,
+        "src": "58:35:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": true,
+        "baseContracts": [],
+        "canonicalName": "BacchusVaultGovernorVotes",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1373,
+        "linearizedBaseContracts": [
+          1373
+        ],
+        "name": "BacchusVaultGovernorVotes",
+        "nameLocation": "113:25:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "functionSelector": "639f5819",
+            "id": 1345,
+            "mutability": "immutable",
+            "name": "bacchusVaultERC1155",
+            "nameLocation": "181:19:2",
+            "nodeType": "VariableDeclaration",
+            "scope": 1373,
+            "src": "144:56:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_BacchusVaultERC1155_$565",
+              "typeString": "contract BacchusVaultERC1155"
+            },
+            "typeName": {
+              "id": 1344,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 1343,
+                "name": "BacchusVaultERC1155",
+                "nameLocations": [
+                  "144:19:2"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 565,
+                "src": "144:19:2"
+              },
+              "referencedDeclaration": 565,
+              "src": "144:19:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_BacchusVaultERC1155_$565",
+                "typeString": "contract BacchusVaultERC1155"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1355,
+              "nodeType": "Block",
+              "src": "267:65:2",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 1353,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 1351,
+                      "name": "bacchusVaultERC1155",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1345,
+                      "src": "277:19:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_BacchusVaultERC1155_$565",
+                        "typeString": "contract BacchusVaultERC1155"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 1352,
+                      "name": "bacchusVaultERC1155Address",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1348,
+                      "src": "299:26:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_BacchusVaultERC1155_$565",
+                        "typeString": "contract BacchusVaultERC1155"
+                      }
+                    },
+                    "src": "277:48:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_BacchusVaultERC1155_$565",
+                      "typeString": "contract BacchusVaultERC1155"
+                    }
+                  },
+                  "id": 1354,
+                  "nodeType": "ExpressionStatement",
+                  "src": "277:48:2"
+                }
+              ]
+            },
+            "id": 1356,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1349,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1348,
+                  "mutability": "mutable",
+                  "name": "bacchusVaultERC1155Address",
+                  "nameLocation": "239:26:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1356,
+                  "src": "219:46:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_BacchusVaultERC1155_$565",
+                    "typeString": "contract BacchusVaultERC1155"
+                  },
+                  "typeName": {
+                    "id": 1347,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 1346,
+                      "name": "BacchusVaultERC1155",
+                      "nameLocations": [
+                        "219:19:2"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 565,
+                      "src": "219:19:2"
+                    },
+                    "referencedDeclaration": 565,
+                    "src": "219:19:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_BacchusVaultERC1155_$565",
+                      "typeString": "contract BacchusVaultERC1155"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "218:48:2"
+            },
+            "returnParameters": {
+              "id": 1350,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "267:0:2"
+            },
+            "scope": 1373,
+            "src": "207:125:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 1371,
+              "nodeType": "Block",
+              "src": "445:71:2",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 1367,
+                        "name": "account",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1358,
+                        "src": "492:7:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "id": 1368,
+                        "name": "tokenId",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1360,
+                        "src": "501:7:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 1365,
+                        "name": "bacchusVaultERC1155",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1345,
+                        "src": "462:19:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_BacchusVaultERC1155_$565",
+                          "typeString": "contract BacchusVaultERC1155"
+                        }
+                      },
+                      "id": 1366,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "482:9:2",
+                      "memberName": "balanceOf",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 2078,
+                      "src": "462:29:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
+                        "typeString": "function (address,uint256) view external returns (uint256)"
+                      }
+                    },
+                    "id": 1369,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "462:47:2",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 1364,
+                  "id": 1370,
+                  "nodeType": "Return",
+                  "src": "455:54:2"
+                }
+              ]
+            },
+            "id": 1372,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "_getVotes",
+            "nameLocation": "347:9:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1361,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1358,
+                  "mutability": "mutable",
+                  "name": "account",
+                  "nameLocation": "374:7:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1372,
+                  "src": "366:15:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1357,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "366:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1360,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nameLocation": "399:7:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1372,
+                  "src": "391:15:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1359,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "391:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "356:56:2"
+            },
+            "returnParameters": {
+              "id": 1364,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1363,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1372,
+                  "src": "436:7:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1362,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "436:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "435:9:2"
+            },
+            "scope": 1373,
+            "src": "338:178:2",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 1374,
+        "src": "95:423:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:487:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.10",
+  "updatedAt": "2022-12-11T22:37:50.346Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

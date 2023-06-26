@@ -1,0 +1,31 @@
+.project-div {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.project-body {
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+.project-roadmap {
+  width: 100%;
+}
+
+.project-team {
+  width: 100%;
+}
+
+.fee-structure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fee-structure div {
+  width: 40%;
+  padding: 1rem 5rem;
+  text-align: justify;
+}

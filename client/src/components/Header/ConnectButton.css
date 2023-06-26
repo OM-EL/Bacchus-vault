@@ -1,0 +1,19 @@
+.connect-btn {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  background-color: var(--dark-gray);
+  padding: 1rem;
+  border-radius: 2rem;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.connect-btn.scaled:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+.connect-btn.scaled img {
+  width: 1rem;
+}

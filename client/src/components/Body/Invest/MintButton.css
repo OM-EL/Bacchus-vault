@@ -1,0 +1,40 @@
+.bottle-card-mint-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.bottle-card-mint-input input {
+  width: 2rem;
+  text-align: center;
+}
+
+.bottle-card-mint-input button {
+  width: 2rem;
+  background-color: var(--gray);
+  border-radius: 0.5rem;
+}
+
+.bottle-card-mint-input input::-webkit-outer-spin-button,
+.bottle-card-mint-input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.bottle-card-mint-input input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.bottle-card-mint-button button {
+  background-color: var(--primary-color);
+  border-radius: 2rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.stripe-btn img {
+  border-radius: 2rem;
+  width: 50px;
+  background-color: var(--gray);
+}

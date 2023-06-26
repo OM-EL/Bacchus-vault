@@ -1,0 +1,16 @@
+.menu-btn {
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 0;
+  color: var(--light-gray);
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.menu-btn:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}

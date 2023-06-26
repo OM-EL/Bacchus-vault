@@ -1,0 +1,50 @@
+.membership-div {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.membership-desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.membership-desc-text {
+  width: 90%;
+}
+
+.membership-desc-text ul {
+  font-size: larger;
+  margin-top: 5rem;
+}
+
+.membership-desc-text li {
+  font-size: larger;
+  width: 30rem;
+  margin: auto;
+}
+
+.membership-desc-logo img {
+  position: relative;
+  width: 20rem;
+  top: 0;
+  right: 0;
+}
+
+.membership-logos {
+  margin-top: 10rem;
+}
+
+.membership-logos img {
+  height: 20rem;
+}
+
+.membership-opportunities {
+  margin-top: 10rem;
+}
+
+.membership-opportunities img {
+  width: 60%;
+}

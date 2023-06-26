@@ -1,0 +1,29 @@
+.voted-card {
+  color: black;
+  background-color: var(--gray);
+  display: flex;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.voted-card-picture {
+  flex: 1;
+}
+
+.voted-card-picture img {
+  width: 10rem;
+  margin: 1rem;
+}
+
+.voted-card-hold {
+  flex: 2;
+}
+
+.voted-card-voted {
+  flex: 2;
+}
+
+.voted-card-sell {
+  flex: 2;
+}
